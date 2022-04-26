@@ -7,5 +7,7 @@ images:
 resources:
 - ../../base
 patchesStrategicMerge:
+- flask-deployment-patch.yaml
+- flask-service-patch.yaml
 - front-deployment-patch.yaml
 - front-service-patch.yaml
